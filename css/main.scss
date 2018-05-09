@@ -49,3 +49,20 @@ $theme-dark: #222;
 		margin-top: 40px;
 	}
 }
+
+//this is for video
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
