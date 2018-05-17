@@ -70,14 +70,3 @@ $theme-dark: #222;
 .portfolio-box {
     max-width: none;
 }
-
-//this is for image to make height proper
-.container {
-    width: 100px;
-}
-
-.container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
